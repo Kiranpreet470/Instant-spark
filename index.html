@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instant Spark</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              spark: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                900: '#0c4a6e',
+              },
+              brand: {
+                start: '#F58529',
+                mid: '#DD2A7B',
+                end: '#8134AF',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Grand+Hotel&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #000;
+        color: #fff;
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .font-logo {
+        font-family: 'Grand Hotel', cursive;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

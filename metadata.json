@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Copy of Instant Spark",
+  "description": "A vibrant social media platform for sharing moments and reels, featuring AI-powered caption generation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
